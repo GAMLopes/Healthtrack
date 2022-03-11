@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet');
+
+html{
+    font-family: 'League Spartan', sans-serif;   
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(5, 73, 3, 0.349)),
+    url(Experiencia_Bem-Estar_6.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.header-principal{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+}
+
+.header-principal a{
+    color: #fff;
+    transition: .5s;
+}
+
+.header-principal a:hover{
+    color: #000;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 15px;
+    margin-right: 30px;
+}    
+
+.header-nav a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: .5s;
+    color: #fff;
+}
+
+.header-nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.header-title{
+    font-size: 2.5rem;
+}
+
+.quem-somos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: 50%;
+    margin-bottom: 50px;
+}
+
+.quem-somos h2{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.quem-somos h3{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.quem-somos h4{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.quem-somos h5{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.bnt{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 70px;
+    padding: 15px 30px;
+    font-size: 2.5vmin;
+    justify-content: center;
+    transition: .5s;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.bnt:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}

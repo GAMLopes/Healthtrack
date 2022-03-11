@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet');
+
+html{
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(5, 73, 3, 0.349)),
+    url(Experiencia_Bem-Estar_6.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-principal{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    font-size: 20px;
+    text-align: 50%;
+    padding-bottom: 30px;
+}
+
+.header-principal a{
+    color: #fff;
+    transition: .5s;
+}
+
+.header-principal a:hover{
+    color: #000;
+}
+
+.header-cad{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    font-size: 1.9rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.notificacao1{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+}
+
+#formulario{
+    width: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#nome{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#idade{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#emailEnd{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#estcivil{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+    color: #000;
+    transition: .1s;
+}
+
+#nmrtelefone{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#cep{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#endereco{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px; 
+}
+
+#nmr{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+#senha{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 6px;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+}
+
+.bnt{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px 25px;
+    font-size: 2.5vmin;
+    justify-content: center;
+    transition: .5s;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.bnt:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}

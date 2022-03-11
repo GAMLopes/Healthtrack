@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet');
+
+html{
+    font-family: 'League Spartan', sans-serif;   
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(5, 73, 3, 0.349)),
+    url(Experiencia_Bem-Estar_6.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.header-login{
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: 50%;
+}
+
+#bnt-header{
+    color: #fff;
+    transition: .5s;
+}
+
+#bnt-header:hover{
+    color: #000;
+}
+
+.header-login2{
+    color: #fff;
+    width: 100%;
+    font-size: 30px;
+    padding: 0 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.header-div{
+    justify-content: center;
+    text-align: 50%;
+}   
+
+.email-name{
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 20px;
+    font-weight: 500;
+}
+
+.password-name{
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 20px;
+    font-weight: 500;
+}
+
+.email-box{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;  
+    padding: 10px 10px;
+    background-color: transparent;
+}
+
+.password-box{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: transparent;
+}
+
+.bnt{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 2.5vmin;
+    justify-content: center;
+    transition: .5s;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+.link{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 19px;
+    color: rgb(255, 254, 254);
+    font-weight: 700;
+    transition: .5s;
+}
+
+.white-line{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.white-line2{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bnt:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.link:hover{
+    color: rgb(0, 0, 0);
+}

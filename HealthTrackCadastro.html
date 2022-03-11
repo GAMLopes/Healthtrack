@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTrack - Cadastro</title>
+
+    <link rel="stylesheet" href="EstilizacaoCad.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header-principal">
+        <a href="HealthTrackMain.html">
+            <h1>HealthTrack</h1>
+        </a>
+    </header>
+    <header class="header-cad">Cadastro</header>
+    <p class="notificacao1">Preencha os campos com as informações solicitadas:</p>
+    <!--Formulário-->
+    <form id="formulario" method="POST">
+        <label for="nome" class="nome">Nome Completo: </label>
+        <input type="text" id="nome" required><br>
+
+        <label for="idade" class="idade">Idade: </label>
+        <input type="number" id="idade" required><br>
+
+        <label for="emailEnd" class="email">E-mail: </label>
+        <input type="email" id="emailEnd" required><br>
+
+        <label for="emailEnd" class="email-end">Confirme seu E-mail: </label>
+        <input type="email" id="emailEnd" required><br>
+
+        <label for="estcivil" class="estcivil">Estado Civil:
+            <select name="estcivil" id="estcivil" required>
+                <option value="S">Solteiro</option>
+                <option value="C">Casado</option>
+                <option value="V">Viúvo</option>
+                <option value="D">Divorciado</option>
+            </select>
+        </label>
+
+        <label for="nmrtelefone" class="nmrtelefone">Numero de telefone (Cel):
+            <input type="number" id="nmrtelefone" required placeholder="(XX) XXXXX-XXXX" required><br>
+        </label>
+
+        <label for="cep" class="cep">Informe seu CEP:</label>
+        <input type="number" id="cep">
+
+        <label for="endereco" class="endereco">Logradouro: </label>
+        <input type="text" id="endereco" required><br>
+
+        <label for="nmr" class="nmr">Nº: </label>
+        <input type="number" id="nmr">
+
+        <label for="senha" class="senha">Crie uma senha: </label>
+        <input type="password" id="senha" maxlength="12" minlength="8">
+        <p class="notificacao">Crie uma senha segura contendo no minímo: 8 caractéres, 1 número e um caractére especial
+            (. ,* !).
+        </p>
+
+        <label for="senha" class="csenha">Confirme sua senha: </label>
+        <input type="password" id="senha" maxlength="12" minlength="8">
+
+        <input type="submit" value="Enviar" class="bnt">
+    </form>
+
+</body>
+
+</html>
